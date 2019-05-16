@@ -1,0 +1,27 @@
+uuid: a44dc69d-1c7b-4d8d-aeb7-a6b506ad879a
+langcode: en
+status: true
+dependencies: {  }
+name: media_type_lab2
+label: media_type_lab2
+display: modal
+display_configuration:
+  width: '650'
+  height: '500'
+  link_text: 'Select entities'
+  auto_open: false
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: tabs
+widget_selector_configuration: {  }
+widgets:
+  4d14af80-4f54-4699-be7d-30fbd2aad307:
+    settings:
+      upload_location: 'public://'
+      multiple: true
+      submit_text: 'Select files'
+      extensions: pdf
+    uuid: 4d14af80-4f54-4699-be7d-30fbd2aad307
+    weight: 2
+    label: 'Subir Archivo (solo pdf)'
+    id: upload

@@ -1,0 +1,29 @@
+uuid: 9e0c568e-ed29-4068-a6fb-2c5501a7e447
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_license
+    - media.type.media_pdf
+    - taxonomy.vocabulary.categorias_derechos_de_autor
+id: media.media_pdf.field_license
+field_name: field_license
+entity_type: media
+bundle: media_pdf
+label: License
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      categorias_derechos_de_autor: categorias_derechos_de_autor
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

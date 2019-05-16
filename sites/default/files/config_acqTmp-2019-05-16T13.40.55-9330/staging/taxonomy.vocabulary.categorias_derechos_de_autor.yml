@@ -1,0 +1,8 @@
+uuid: 5e330bc1-68bb-46eb-ba40-be736efeeb9c
+langcode: en
+status: true
+dependencies: {  }
+name: 'Categorias derechos de autor'
+vid: categorias_derechos_de_autor
+description: ''
+weight: 0
